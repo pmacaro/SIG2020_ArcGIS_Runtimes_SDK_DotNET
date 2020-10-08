@@ -18,14 +18,14 @@ Le projet est une solution Microsoft Visual Studio 2017.
 - remplacer le texte 'ORGANISATION' par le nom d'hôte de l'organisation source de la couche, par exemple *orga*.maps.arcgis.com où *orga* est l'identifiant de votre compte développeur ArcGIS site [ArcGIS for Developers](https://developers.arcgis.com/).
 - remplacer les textes 'IDENTIFIANT_COMPTE_DEVELOPPEUR' et 'MDP_COMPTE_DEVELOPPEUR' par l'identifiant et le mot de passe de votre compte développeur ArcGIS.
 3. Au choix :
-- Pour afficher une couche depuis son identifiant d'item, décommenter le bloc de code commençant par le commentaire '//ITEM', puis remplacer 'IDENTIFIANT_ITEM' par l'identifiant de l'item de la couche à utiliser.
-- Pour afficher une couche depuis le service publié, décommenter le bloc de code commençant par le commentaire '//SERVICE', puis remplacer 'URI_SERVICE' par l'URI du service à utiliser.
-4. Optionnel :si l'application doit être déployée, la licence doit êtré gérée dans le fichier App.xaml.cs. Si la licence LITE est suffisante pour votre utilisation :
-- Décommentez la ligne de code "Gestion de la licence"
+- Pour afficher une couche avec son identifiant d'item, décommenter le bloc de code commençant par le commentaire '//ITEM', puis remplacer 'IDENTIFIANT_ITEM' par l'identifiant de l'item de la couche à utiliser.
+- Pour afficher une couche avec le service publié, décommenter le bloc de code commençant par le commentaire '//SERVICE', puis remplacer 'URI_SERVICE' par l'URI du service à utiliser.
+4. Optionnel : si l'application doit être déployée, la licence doit êtré gérée dans le fichier App.xaml.cs. Si la licence LITE est suffisante pour votre utilisation :
+- Décommentez la ligne de code sous"Gestion de la licence"
 - Remplacer le texte 'CLE_LICENCE' par la clé de licence LITE de votre compte développeur ArcGIS.
 5. Lancer l'application et contrôlez que :
 - votre couche s'affiche
-- le filigrane "Licensed for developers only" n'est pas affiché (si ce n'est pas le cas, problème de licence)
+- le filigrane "Licensed For Developer Use Only" n'est pas affiché (si ce n'est pas le cas, alors il y a un problème de licence)
 
 ## Ressources
 
@@ -33,7 +33,7 @@ Le projet est une solution Microsoft Visual Studio 2017.
 * [ArcGIS Blog](https://blogs.esri.com/esri/arcgis/)  
 * [Esri Twitter](https://twitter.com/esri)
 
-## Licensing
+## Licence  
 
 Copyright 2020 Esri France 
 
